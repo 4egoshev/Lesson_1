@@ -13,6 +13,7 @@
 		9BFF08D61E69A07A00C08779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF08D41E69A07A00C08779 /* Main.storyboard */; };
 		9BFF08D81E69A07A00C08779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF08D71E69A07A00C08779 /* Assets.xcassets */; };
 		9BFF08DB1E69A07A00C08779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF08D91E69A07A00C08779 /* LaunchScreen.storyboard */; };
+		9BFF08E31E69A13000C08779 /* deadpool_121-e1454924608869.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF08E21E69A13000C08779 /* deadpool_121-e1454924608869.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9BFF08D71E69A07A00C08779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BFF08DA1E69A07A00C08779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BFF08DC1E69A07A00C08779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFF08E21E69A13000C08779 /* deadpool_121-e1454924608869.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "deadpool_121-e1454924608869.jpeg"; path = "image/deadpool_121-e1454924608869.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		9BFF08CB1E69A07A00C08779 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BFF08E21E69A13000C08779 /* deadpool_121-e1454924608869.jpeg */,
 				9BFF08CC1E69A07A00C08779 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,6 +142,7 @@
 			files = (
 				9BFF08DB1E69A07A00C08779 /* LaunchScreen.storyboard in Resources */,
 				9BFF08D81E69A07A00C08779 /* Assets.xcassets in Resources */,
+				9BFF08E31E69A13000C08779 /* deadpool_121-e1454924608869.jpeg in Resources */,
 				9BFF08D61E69A07A00C08779 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lesson_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GeekBrains.Lesson-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lesson_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GeekBrains.Lesson-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +315,7 @@
 				9BFF08E11E69A07A00C08779 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
